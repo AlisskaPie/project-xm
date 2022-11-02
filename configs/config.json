@@ -1,0 +1,12 @@
+{
+  "http": {
+    "listenHostPort": ":8000"
+  },
+  "db": {
+    "dsn": "postgresql://postgres:postgres@company_postgres/company?sslmode=disable"
+  },
+  "auth": {
+    "jwtKey": "supersecret"
+  },
+  "eventSender": true
+}
